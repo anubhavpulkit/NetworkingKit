@@ -3,7 +3,6 @@
 import Foundation
 import SwiftUI
 
-// NetworkService.swift
 public protocol NetworkServiceProtocol {
     func fetchData(from url: URL, completion: @escaping (Result<Data, Error>) -> Void)
 }
